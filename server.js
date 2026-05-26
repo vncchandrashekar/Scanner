@@ -3,8 +3,8 @@ const axios = require('axios');
 const app = express();
 
 // --- CONFIGURATION (Change these values!) ---
-const TELEGRAM_TOKEN = '8887495610:AAH7o4z5VEcMNUPy_cypgzXMppT-oHlWYwE'; 
-const TELEGRAM_CHAT_ID = '8976115677';
+const TELEGRAM_TOKEN = 'type_here'; 
+const TELEGRAM_CHAT_ID = 'type_heree';
 
 // Top High-Volume Nifty Stocks (Expand this array as needed)
 const NSE_TICKERS = ['RELIANCE.NS', 'TCS.NS', 'HDFCBANK.NS', 'INFY.NS', 'ITC.NS', 'SBIN.NS', 'BHARTIARTL.NS', 'ICICIBANK.NS', 'TATAMOTORS.NS', 'AXISBANK.NS'];
