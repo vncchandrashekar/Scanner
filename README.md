@@ -1,2 +1,12 @@
-# Scanner
-scans for nse 500
+{
+  "name": "nse-scanner",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
